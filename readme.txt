@@ -1,0 +1,1 @@
+-- used ChatGPT to generate the HTML Web Page Skeleton, and completed CSS by myself with some debugging help from ChatGPT

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  @import url("https://use.typekit.net/rbv6vfn.css");
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pick - PennPlan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Pick</div>
+      <div class="menu">PennPlan &#9776;</div>
+    </header>
+
+    <hr class="divider" />
+
+    <div class="search-bar">
+      <input type="text" placeholder="🔍 Search..." />
+    </div>
+
+    <h2>Attributes Selected</h2>
+
+    <section>
+      <div class="tag">✕ College Sector - Society</div>
+      <div class="tag">✕ College Sector - Arts & Letters</div>
+      <div class="tag">✕ Linguistics - Related Courses</div>
+    </section>
+
+    <section class="advanced-search">
+      <h2>Advanced Search</h2>
+
+      <div class="category-box">
+        <details open>
+          <summary>Subject</summary>
+            <label> ▾ <input type="checkbox" /> Linguistics</label>
+            <div class="sub-options">
+              <label> \ <input type="checkbox" /> Related Courses</label>
+              <label> \ <input type="checkbox" /> Pre-PhD Courses</label>
+            </div>
+          <label> ▾ <input type="checkbox" /> Anthropology</label>
+          <label> ▾ <input type="checkbox" /> Biochemistry</label>
+          <div class="show-more"> ▾ Show more or <input class="search-small" type="text" placeholder="🔍 Search..." /></div>
+        </details>
+      </div>
+
+      <div class="category-box">
+        <details open>
+          <summary>Prerequisites</summary>
+          <label>▾ <input type="checkbox" /> College of Arts and Sciences</label>
+          <div class="sub-options">
+            <label> \ <input type="checkbox" /> Sector - Arts & Letters</label>
+            <label> \ <input type="checkbox" /> Sector - History & Tradition</label>
+            <label> \ <input type="checkbox" /> Sector - Humanities and Social Science</label>
+            <div class="show-more"> ▾ Show more or <input class="search-small" type="text" placeholder="🔍 Search..." /></div>
+          </div>
+          <label> ▾ <input type="checkbox" /> The Wharton School</label>
+          <label> ▾ <input type="checkbox" /> SEAS</label>
+          <div class="show-more"> ▾ Show more or <input class="search-small" type="text" placeholder="🔍 Search..." /></div>
+        </details>
+      </div>
+
+      <div class="category-box">
+        <details>
+          <summary>Delivery Format</summary>
+        </details>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
