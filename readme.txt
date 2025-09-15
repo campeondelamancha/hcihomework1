@@ -1,1 +1,2 @@
 -- used ChatGPT to generate the HTML Web Page Skeleton, and completed CSS by myself with some debugging help from ChatGPT
+-- Used FFReal from Adobe in the final design, as well as graphical elements from Adobe XD (font here https://fonts.adobe.com/fonts/ff-real)
